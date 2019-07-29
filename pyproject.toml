@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "WhiteboardDetection"
+version = "0.1.0"
+description = "Extracts text and Post-its from whiteboard images"
+authors = ["Adrian Steppat <adrian.steppat@student.hpi.de>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+opencv-python = "*"
+imutils = "*"
+matplotlib = "*"
+scipy = "*"
+sklearn = "*"
+scikit-image = "*"
+numba = "*"
+editdistance = "^0.5.3"
+tensorflow = "^1.13"
+six = "^1.12"
+protobuf = "^3.7"
+nbstripout = "^0.3.5"
+cython = "^0.29.11"
+keras = "^2.2"
+
+[tool.poetry.dev-dependencies]
+jupyter = "*"
